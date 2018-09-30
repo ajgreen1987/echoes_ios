@@ -17,6 +17,9 @@
 		BAAD5D082160FF6900B87493 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAAD5D062160FF6900B87493 /* LaunchScreen.storyboard */; };
 		BAAD5D132160FF6900B87493 /* echoesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAD5D122160FF6900B87493 /* echoesTests.swift */; };
 		BAAD5D1E2160FF6A00B87493 /* echoesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAD5D1D2160FF6A00B87493 /* echoesUITests.swift */; };
+		BAEFD8142161541A0014769B /* ECHOESRESTAPIEchoesaddcClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEFD8102161541A0014769B /* ECHOESRESTAPIEchoesaddcClient.swift */; };
+		BAEFD8152161541A0014769B /* ECHOESRESTAPIResponseSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEFD8112161541A0014769B /* ECHOESRESTAPIResponseSchema.swift */; };
+		BAEFD8162161541A0014769B /* ECHOESRESTAPIRequestSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEFD8122161541A0014769B /* ECHOESRESTAPIRequestSchema.swift */; };
 		E69DDAE377B290C28D0083B0 /* Pods_echoes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0DC6AA105220380C479877A /* Pods_echoes.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +63,11 @@
 		BAAD5D192160FF6900B87493 /* echoesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = echoesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAAD5D1D2160FF6A00B87493 /* echoesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = echoesUITests.swift; sourceTree = "<group>"; };
 		BAAD5D1F2160FF6A00B87493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAEFD80F2161541A0014769B /* AWSApiGatewayBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSApiGatewayBridge.h; sourceTree = "<group>"; };
+		BAEFD8102161541A0014769B /* ECHOESRESTAPIEchoesaddcClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ECHOESRESTAPIEchoesaddcClient.swift; sourceTree = "<group>"; };
+		BAEFD8112161541A0014769B /* ECHOESRESTAPIResponseSchema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ECHOESRESTAPIResponseSchema.swift; sourceTree = "<group>"; };
+		BAEFD8122161541A0014769B /* ECHOESRESTAPIRequestSchema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ECHOESRESTAPIRequestSchema.swift; sourceTree = "<group>"; };
+		BAEFD8132161541A0014769B /* Bridging_Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bridging_Header.h; sourceTree = "<group>"; };
 		E5486EF451C076D7F0106CB2 /* Pods-echoes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-echoes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-echoes/Pods-echoes.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,6 +134,7 @@
 		BAAD5CFC2160FF6800B87493 /* echoes */ = {
 			isa = PBXGroup;
 			children = (
+				BAEFD80E2161541A0014769B /* generated-src */,
 				BA4E5192216106C30094C9FE /* awsconfiguration.json */,
 				BAAD5CFD2160FF6800B87493 /* AppDelegate.swift */,
 				BAAD5CFF2160FF6800B87493 /* ViewController.swift */,
@@ -154,6 +163,18 @@
 			);
 			path = echoesUITests;
 			sourceTree = "<group>";
+		};
+		BAEFD80E2161541A0014769B /* generated-src */ = {
+			isa = PBXGroup;
+			children = (
+				BAEFD80F2161541A0014769B /* AWSApiGatewayBridge.h */,
+				BAEFD8102161541A0014769B /* ECHOESRESTAPIEchoesaddcClient.swift */,
+				BAEFD8112161541A0014769B /* ECHOESRESTAPIResponseSchema.swift */,
+				BAEFD8122161541A0014769B /* ECHOESRESTAPIRequestSchema.swift */,
+				BAEFD8132161541A0014769B /* Bridging_Header.h */,
+			);
+			path = "generated-src";
+			sourceTree = SOURCE_ROOT;
 		};
 		F0B08EA1699E8D9E889B9391 /* Pods */ = {
 			isa = PBXGroup;
@@ -412,7 +433,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAAD5D002160FF6800B87493 /* ViewController.swift in Sources */,
+				BAEFD8152161541A0014769B /* ECHOESRESTAPIResponseSchema.swift in Sources */,
+				BAEFD8162161541A0014769B /* ECHOESRESTAPIRequestSchema.swift in Sources */,
 				BAAD5CFE2160FF6800B87493 /* AppDelegate.swift in Sources */,
+				BAEFD8142161541A0014769B /* ECHOESRESTAPIEchoesaddcClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
