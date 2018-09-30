@@ -1,0 +1,11 @@
+{
+    "projectName": "echoes",
+    "projectPath": "/Users/ajgreen/Documents/aws-mobilehub/ios/echoes",
+    "defaultEditor": "code",
+    "frontendHandler": {
+        "ios": "/usr/local/lib/node_modules/@aws-amplify/cli/node_modules/amplify-frontend-ios"
+    },
+    "providers": {
+        "awscloudformation": "/usr/local/lib/node_modules/@aws-amplify/cli/node_modules/amplify-provider-awscloudformation"
+    }
+}

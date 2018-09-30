@@ -1,0 +1,11 @@
+{
+    "appName": "echoes",
+    "roleName": "pinpointLambdaRoleeb2a2555",
+    "cloudWatchPolicyName": "cloudWatchPolicyeb2a2555",
+    "pinpointPolicyName": "pinpointPolicyeb2a2555",
+    "authPolicyName": "pinpoint_amplify_eb2a2555",
+    "unauthPolicyName": "pinpoint_amplify_eb2a2555",
+    "authRoleName": "echoes-20180930090243-authRole",
+    "unauthRoleName": "echoes-20180930090243-unauthRole",
+    "IAMPrefix": "562416834193"
+}
